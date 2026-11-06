@@ -1,0 +1,81 @@
+/*
+
+1) Style the `body`:
+
+a) Set the font to "Open Sans" with a fallback `sans-serif`.
+
+b) Set the page background to black using `background-color: black;`
+
+2) Style the main wrapper `#container`:
+
+a) Set width to `1000px` and height to `550px`.
+
+b) Add a background image with a dark overlay using `linear-gradient(...)` + `url(bgImg.jpg)`.
+
+c) Center the container using `margin: 20px auto;`
+
+3) Style the calculator box `#calculator`:
+
+a) Set width to `320px` and height to `520px`.
+
+b) Set a light background using `background-color: #eaedef;`
+
+c) Center it horizontally using `margin: 0 auto;`
+
+d) Move it down slightly using `top: 20px` and `position: relative;`
+
+e) Round corners using `border-radius: 5px;`
+
+f) Add a shadow using `box-shadow` for a 3D effect.
+
+4) Create space for the display area `#result`:
+
+a) Set height to `120px`.
+
+5) Create space for the buttons area `#keyboard`:
+
+a) Set height to `400px`.
+
+6) Style all buttons `.operator`, `.number`, and `.empty`:
+
+a) Set button size to `50px x 50px`.
+
+b) Add spacing using `margin: 15px`.
+
+c) Align buttons in a grid using `float: left`.
+
+d) Make buttons circular using `border-radius: 50%`.
+
+e) Remove border using `border-width: 0`.
+
+f) Make text bold and readable using:
+
+- `font-weight: bold`
+
+- `font-size: 15px`
+
+7) Style number buttons and empty placeholders:
+
+a) Target `.number, .empty`
+
+b) Match background with calculator using `background-color: #eaedef;`
+
+8) Add pointer cursor for clickable buttons:
+
+a) Target `.number, .operator`
+
+b) Set `cursor: pointer;`
+
+9) Add active click effect:
+
+a) Target `.operator.active, .number.active`
+
+b) Reduce font size slightly to `13px` when active.
+
+10) Remove the default focus outline:
+
+a) Target `.operator:focus, .number:focus, .empty:focus`
+
+b) Use `outline: 0;`
+
+*/
