@@ -5,7 +5,7 @@ body{
 #container{
     width: 1000;
     height: 550px;
-    background-color: cornflowerblue;
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0, 0, 0, 0.3)),url(bg.jpg) ;
     margin: 20px auto;
 }
 #calculator{
@@ -49,4 +49,24 @@ body{
 .operator:focus,.number:focus,.empty:focus{
     outline: 0;
 
+}
+button:nth-child(4){
+    font-size: 20px;
+    background-color: aquamarine;
+}
+button:nth-child(8) {
+    font-size: 20px;
+        background-color:burlywood;
+}
+button:nth-child(12) {
+    font-size: 20px;
+    background-color:cornflowerblue;
+}
+button:nth-child(16) {
+    font-size: 20px;
+    background-color:lightcoral;
+}
+button:nth-child(20) {
+    font-size: 20px;
+    background-color: pink;
 }
